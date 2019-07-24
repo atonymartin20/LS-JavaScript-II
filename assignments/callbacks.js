@@ -94,7 +94,6 @@ function removeDuplicates(array, cb) {
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
   let array2 = array;
-  // return array2.filter((item, index) => array.indexOf(item) === index);
   return cb(array2)
 }
 
